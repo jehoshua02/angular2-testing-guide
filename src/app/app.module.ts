@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BannerInlineComponent } from './banner-inline/banner-inline.component';
 import { MyComponentComponent } from './my-component/my-component.component';
 import { BannerComponent } from './banner/banner.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BannerComponent } from './banner/banner.component';
     BannerInlineComponent,
     MyComponentComponent,
     BannerInlineComponent,
-    BannerComponent
+    BannerComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,

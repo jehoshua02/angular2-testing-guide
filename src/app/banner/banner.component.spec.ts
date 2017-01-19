@@ -22,7 +22,6 @@ describe('BannerComponent (templateUrl)', () => {
   // synchronous beforeEach
   beforeEach(() => {
     fixture = TestBed.createComponent(BannerComponent);
-    console.log('createComponent', !!fixture);
 
     comp = fixture.componentInstance; // BannerComponent test instance
 
@@ -41,7 +40,6 @@ describe('BannerComponent (templateUrl)', () => {
   });
 
   it('should display a different test title', () => {
-    console.log('test', !!fixture);
     comp.title = 'Test Title';
     fixture.detectChanges();
     expect(el.textContent).toContain('Test Title');
