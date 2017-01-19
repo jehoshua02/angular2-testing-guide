@@ -6,12 +6,15 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { BannerInlineComponent } from './banner-inline/banner-inline.component';
 import { MyComponentComponent } from './my-component/my-component.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BannerInlineComponent,
-    MyComponentComponent
+    MyComponentComponent,
+    BannerInlineComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
