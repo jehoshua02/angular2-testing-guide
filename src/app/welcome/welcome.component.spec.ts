@@ -12,7 +12,7 @@ describe('WelcomeComponent', () => {
   let userServiceStub: UserService;
   let userService: UserService;
   let de: DebugElement;
-  let el = HTMLElement;
+  let el: HTMLElement;
 
   beforeEach(() => {
     // stub UserService for test purposes
