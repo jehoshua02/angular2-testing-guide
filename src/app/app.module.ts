@@ -10,6 +10,7 @@ import { BannerComponent } from './banner/banner.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TwainComponent } from './twain/twain.component';
 import { DashboardHeroComponent } from './dashboard-hero/dashboard-hero.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DashboardHeroComponent } from './dashboard-hero/dashboard-hero.componen
     BannerComponent,
     WelcomeComponent,
     TwainComponent,
-    DashboardHeroComponent
+    DashboardHeroComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
