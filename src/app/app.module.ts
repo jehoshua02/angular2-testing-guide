@@ -9,6 +9,7 @@ import { MyComponentComponent } from './my-component/my-component.component';
 import { BannerComponent } from './banner/banner.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TwainComponent } from './twain/twain.component';
+import { DashboardHeroComponent } from './dashboard-hero/dashboard-hero.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TwainComponent } from './twain/twain.component';
     BannerInlineComponent,
     BannerComponent,
     WelcomeComponent,
-    TwainComponent
+    TwainComponent,
+    DashboardHeroComponent
   ],
   imports: [
     BrowserModule,
